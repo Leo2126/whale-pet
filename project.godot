@@ -11,13 +11,20 @@ config_version=5
 [application]
 
 config/name="ds-pet"
+run/main_scene="uid://8jpvnltrt8l1"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
 
+window/size/viewport_width=300
+window/size/viewport_height=300
+window/size/borderless=true
+window/size/always_on_top=true
+window/size/transparent=true
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+window/per_pixel_transparency/allowed=true
 
 [editor_plugins]
 
